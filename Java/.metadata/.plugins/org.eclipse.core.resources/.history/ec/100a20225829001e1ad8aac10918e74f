@@ -1,0 +1,14 @@
+package practice;
+
+public class specs() {
+	color = "blue";
+	type = "SUV";
+	
+}
+
+public class car {
+	public static void main(String args[]) {
+		
+	}
+
+}

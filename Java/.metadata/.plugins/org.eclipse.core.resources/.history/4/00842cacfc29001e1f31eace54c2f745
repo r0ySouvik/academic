@@ -1,0 +1,33 @@
+package practice;
+
+import java.util.Scanner;
+
+public class evenSum {
+	
+	static int add(int arr[],int arrLength) {
+		int i=0;
+		if(i>=arrLength)
+			return 0;
+		
+		//int currentElement = arr[i];
+		int sum=0;
+		
+		if(arr[i]%2==0) {
+			sum = arr[i];
+		}
+		return sum+add(arr,i+1);	
+	}
+	
+	public static void main(String args[]) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter size of array: ");
+		int size = sc.nextInt();
+		int a[] = new int[size];
+		System.out.println("Enter elements of array: ");
+		for(int i=0;i<size;i++) {
+			a[i] = sc.nextInt();
+		}
+		int total = add(a,size);
+		System.out.println("The sum of even numbers: " +total);
+	}
+}

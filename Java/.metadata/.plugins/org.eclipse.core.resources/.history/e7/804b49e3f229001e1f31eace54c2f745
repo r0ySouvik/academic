@@ -1,0 +1,12 @@
+package practice;
+
+public class evenSum {
+	
+	static int sum(int arr[]) {
+		
+	}
+	
+	public static void main(String args[]) {
+		
+	}
+}

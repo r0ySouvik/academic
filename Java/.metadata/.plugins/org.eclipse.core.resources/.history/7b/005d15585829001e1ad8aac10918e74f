@@ -1,0 +1,17 @@
+package practice;
+
+public class specs() {
+	String color = "blue";
+	String type = "SUV";
+	
+}
+
+public class car {
+	public static void main(String args[]) {
+		specs obj = new specs();
+		System.out.print("obj.color = " + obj.color);
+		System.out.print("obj.type= " + obj.type);
+
+	}
+
+}
